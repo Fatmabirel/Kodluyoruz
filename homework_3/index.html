@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kadın Hakları Accordion</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container mt-4">
+      <h1 class="text-center mb-4">Kadın Hakları</h1>
+
+      <div class="accordion" id="kadinhaklariAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              Kadın Hakları Tarihi
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingOne"
+            data-bs-parent="#kadinhaklariAccordion"
+          >
+            <div class="accordion-body">
+              <p>
+                Kadın hakları mücadelesi, tarih boyunca kadınların eşit haklara
+                sahip olması için verilen önemli bir mücadeledir. İlk kadın
+                hakları hareketleri, 19. yüzyılda ortaya çıkmıştır. 1848 yılında
+                ABD'de düzenlenen Seneca Falls Konferansı, kadın hakları
+                hareketinin başlangıcı olarak kabul edilir.
+              </p>
+              <p>
+                Kadınların seçme ve seçilme hakkı, eğitim hakkı ve çalışma
+                hayatına katılımı bu mücadelenin temel unsurlarını oluşturur.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              Kadına Yönelik Şiddetle Mücadele
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#kadinhaklariAccordion"
+          >
+            <div class="accordion-body">
+              <p>
+                Kadına yönelik şiddet, dünya genelinde ciddi bir insan hakları
+                sorunudur. Bu şiddetin önlenmesi için ulusal ve uluslararası
+                düzeyde birçok çalışma yapılmaktadır.
+              </p>
+              <p>
+                Birleşmiş Milletler, 1993 yılında "Kadına Yönelik Şiddetin
+                Ortadan Kaldırılması Bildirgesi"ni kabul etmiştir. Ayrıca
+                İstanbul Sözleşmesi, bu konuda önemli bir hukuki çerçeve
+                sunmaktadır.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              Eğitim ve Çalışma Hayatı
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingThree"
+            data-bs-parent="#kadinhaklariAccordion"
+          >
+            <div class="accordion-body">
+              <p>
+                Kadınların eğitim hakkı, toplumsal eşitlik ve ekonomik
+                bağımsızlık için temel bir adımdır. Ancak birçok ülkede kız
+                çocuklarının eğitime erişimi hâlâ kısıtlıdır.
+              </p>
+              <p>
+                Çalışma hayatında ise kadınlar, cinsiyet eşitsizliği ve ücret
+                farkları gibi sorunlarla karşı karşıya kalmaktadır. Toplumsal
+                cinsiyet eşitliğinin sağlanması, bu sorunların çözülmesi için
+                hayati öneme sahiptir.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
